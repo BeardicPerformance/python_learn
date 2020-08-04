@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# simple script to count down from int(parameter)
 def recursive_function(parameters):
     import time
     count = parameters
