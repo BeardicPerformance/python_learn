@@ -14,7 +14,7 @@ for file in files:
                 content.append(line)
         review = {"title" : content[0], "name" : content[1], "date" : content[2], "feedback" : content[3]}
         reviews.append(review)
-for review in reviews:
+for review in reviews:"
         response = requests.post("http://34.72.115.93/feedback/", json=review)
         print(review)
         response.raise_for_status()
